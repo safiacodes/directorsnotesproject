@@ -33,7 +33,7 @@
       <ul class="textbox">
         <li>Festival appearances: Dublin International Film Festival</li>
       </ul>
-      <button><b>Add to Watchlist</b></button>
+      <button id="toWatchButton"><b>Add to Watchlist</b></button>
       <br>
       <br>
       <img src="coastline.jpg" alt="coastline" width="300" height="200">
@@ -44,7 +44,10 @@
       <h2>The Quiet Cartographer review</h2>
       <p>The over all atmosphere of The Quiet Cartographer is a film that provokes a sense of unease as a mapmaker records the disappearing paths along a changing coastline. With this considered, the documentary highlights the realities of cliffside erosion.</p>
       <h3>Rating: 4/5</h3>
-      <button><b>Watch trailer</b></button>
+      <button id="watchTrailerButton" onclick="play_video();"><b>Watch trailer</b></button>
+      <video id="trailer" width="320" height="240" controls muted>
+        <source src="trailer.mp4" type="video/mp4">
+      </video>
     </article>
     <br>
   </section>
@@ -58,5 +61,6 @@
     </ul>
   </nav>
 </footer>
+<script src="scripts/script.js"></script>
 </body>
 </html>
