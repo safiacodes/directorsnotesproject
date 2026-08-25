@@ -35,5 +35,12 @@ body {
       }
     img {
       border: lightblue solid 5px;
+      padding: 1px;
       margin: 7px;
+    }
+    article {
+      padding: 5px;
+    }
+    #toWatchButton {
+      padding: 5px;
     }

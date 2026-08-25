@@ -1,0 +1,44 @@
+body {
+  background-color: slategray;
+  color: lightgray;
+  font-family: times new roman;
+}
+h1 {
+  background-color: lightgray;
+  color: slategray;
+}
+h2 {
+  color: white;
+}
+
+button {
+  background-color: lightblue;
+  color:black;
+}
+a {
+  color:white;
+}
+li {
+  background-color: lightslategray;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+li:hover {
+  background-color:lightblue;
+  color:black;
+}
+a:hover {
+  background-color: lightblue;
+  color:black;
+}
+img {
+  border: lightblue solid 5px;
+  margin: 7px;
+}
+article {
+  padding: 5px;
+}
+#toWatchButton {
+  padding: 5px;
+}
