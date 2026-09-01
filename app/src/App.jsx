@@ -1,8 +1,12 @@
-import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
-import TrailerButton from "./components/TrailerButton.jsx";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
+import TrailerButton from "./TrailerButton.jsx";
+import WatchlistButton from "./WatchlistButton.jsx";
 
 function App() {
+//const [selectedIds, setSelectedIds] = useState([]);
+// function handleToggleSelect(id)
+
   return (
     <>
     <Header />
@@ -26,20 +30,20 @@ function App() {
             <ul class="textbox">
               <li>Festival appearances: Dublin International Film Festival</li>
             </ul>
-            <button id="toWatchButton"><b>Add to Watchlist</b></button>
-            <img src="coastline.jpg" alt="coastline" width="300" height="200" />
-            <img src="coastlines2.jpg" alt="coastline" width="300" height="200" />
-            <img src="coastlines3.jpg" alt="coastline" width="300" height="200" />
+            <img src={"./src/assets/coastline.jpg"} alt="coastline" width="290" height="190" />
+            <img src={"./src/assets/coastlines2.jpg"} alt="coastline" width="290" height="190" />
+            <img src={"./src/assets/coastlines3.jpg"} alt="coastline" width="290" height="190" />
+            <WatchlistButton />
           </div>
 
           <article>
             <h2>The Quiet Cartographer review</h2>
             <p>The over all atmosphere of The Quiet Cartographer is a film that provokes a sense of unease as a mapmaker records the disappearing paths along a changing coastline. With this considered, the documentary highlights the realities of cliffside erosion.</p>
             <h3>Rating: 4/5</h3>
-            <TrailerButton/>
-            <video id="trailer" width="320" height="240" controls muted>
+            <video ref="vidRef" id="trailer" width="290" height="190" controls muted>
               <source src="trailer.mp4" type="video/mp4"/>
             </video>
+            <TrailerButton />
           </article>
           
         </section>

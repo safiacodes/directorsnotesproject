@@ -14,6 +14,7 @@ h2 {
 button {
   background-color: lightblue;
   color:black;
+  margin: 10px;
 }
 a {
   color:white;
@@ -34,11 +35,21 @@ a:hover {
 }
 img {
   border: lightblue solid 5px;
-  margin: 7px;
+  margin: 10px;
+  flex-wrap: nowrap;
 }
 article {
-  padding: 5px;
+  padding: 10px;
 }
 #toWatchButton {
   padding: 5px;
+  margin: 10px;
+}
+#watchTrailerButton {
+  padding: 5px;
+  margin: 10px;
+}
+#trailer {
+  padding: 5px;
+  margin: 5px;
 }
