@@ -7,8 +7,15 @@ h1 {
   background-color: lightgray;
   color: slategray;
 }
+h1:hover {
+  background-color: lightblue;
+  color:slategray;
+}
 h2 {
   color: white;
+}
+h2:hover {
+  color:lightblue;
 }
 
 button {
@@ -38,18 +45,54 @@ img {
   margin: 10px;
   flex-wrap: nowrap;
 }
+img:hover {
+  border:white solid 5px;
+  margin: 10px;
+  flex-wrap: nowrap;
+  zoom: 130%;
+
+}
 article {
   padding: 10px;
 }
 #toWatchButton {
   padding: 5px;
-  margin: 10px;
+  margin: 20px;
+  display: block;
 }
-#watchTrailerButton {
+#addFavouritesButton {
   padding: 5px;
   margin: 10px;
 }
 #trailer {
+  padding: 10px;
+  margin: 10px;
+  display: block;
+}
+
+#playtrailer {
   padding: 5px;
   margin: 5px;
+  background-color: rgb(201, 245, 228);
+}
+
+#stoptrailer {
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(246, 213, 213);
+}
+#memory {
+  color:white;
+  display:inline;
+  padding:5px;
+}
+#place {
+  color:white;
+  display:inline;
+  padding: 5px;
+}
+#themes {
+  color:white;
+  display:inline;
+  padding:5px;
 }

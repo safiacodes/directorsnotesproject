@@ -1,20 +1,16 @@
  import { useRef } from "react";
 
-/* function play_video() {
-    document.getElementById("trailer").play();
-    document.getElementById("watchTrailerButton").textContent = "Trailer is playing";
-};*/
+ function Video() {
+  const videoRef = useRef(null);
 
-
- function video(play_video) {
     return (
+      <div>
  <video ref={videoRef} id="trailer" width="290" height="190" controls muted>
               <source src="trailer.mp4" type="video/mp4"/>
             </video>
+            <button id="playtrailer" onClick={() => videoRef.current?.play()}>Watch Trailer</button>
+            <button id="stoptrailer" onClick={() => videoRef.current?.pause()}>Stop Trailer</button>
+            </div>
     );
 }
-export default video;
-
-/*<video id="trailer" width="290" height="190" controls muted>
-              <source src="trailer.mp4" type="video/mp4"/>
-            </video>*/
+export default Video;
