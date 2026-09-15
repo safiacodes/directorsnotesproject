@@ -17,7 +17,9 @@ h2 {
 h2:hover {
   color:lightblue;
 }
-
+h3 {
+  color:rgb(146, 214, 237);
+}
 button {
   background-color: lightblue;
   color:black;
@@ -44,6 +46,7 @@ img {
   border: lightblue solid 5px;
   margin: 10px;
   flex-wrap: nowrap;
+
 }
 img:hover {
   border:white solid 5px;

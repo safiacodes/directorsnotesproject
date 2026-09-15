@@ -3,9 +3,9 @@ function Footer() {
         <footer>
             <nav>
     <ul>
-      <li class="nav"><a href="#">Home</a></li>
-      <li class="nav"><a href="#">About</a></li>
-      <li class="nav"><a href="#">Contact</a></li>
+      <li className="nav"><a href="#">Home</a></li>
+      <li className="nav"><a href="#">About</a></li>
+      <li className="nav"><a href="#">Contact</a></li>
     </ul>
   </nav>
         </footer>

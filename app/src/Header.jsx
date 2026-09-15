@@ -1,10 +1,10 @@
 function Header() {
     return (
-       <header class="site-header">
-        <nav class="shortcuts">
+       <header className="site-header">
+        <nav className="shortcuts">
             <ul>
-                <li class="shortcuts"><a href="#">feature films</a></li>
-                <li class="shortcuts"><a href="#">short films</a></li>
+                <li className="shortcuts"><a href="#">feature films</a></li>
+                <li className="shortcuts"><a href="#">short films</a></li>
             </ul>
         </nav>
        </header> 
