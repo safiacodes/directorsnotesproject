@@ -1,2 +1,4 @@
 # directorsnotesproject
-directors notes project from chosen brief.
+directors notes project: film folio.
+
+
